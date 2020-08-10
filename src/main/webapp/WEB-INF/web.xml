@@ -22,6 +22,12 @@
   	<description></description>
   	<servlet-class>controlador.web.TratamientoControlador</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>DiagnosticoControlador</servlet-name>
+  	<display-name>DiagnosticoControlador</display-name>
+  	<description></description>
+  	<servlet-class>controlador.web.DiagnosticoControlador</servlet-class>
+  </servlet>
   <servlet-mapping>
   	<servlet-name>PacienteController</servlet-name>
   	<url-pattern>/PacienteController</url-pattern>
@@ -33,5 +39,9 @@
   <servlet-mapping>
   	<servlet-name>TratamientoControlador</servlet-name>
   	<url-pattern>/Tratamiento</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DiagnosticoControlador</servlet-name>
+  	<url-pattern>/DiagnosticoControlador</url-pattern>
   </servlet-mapping>
 </web-app>

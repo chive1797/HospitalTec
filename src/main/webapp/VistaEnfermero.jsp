@@ -6,11 +6,12 @@
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
 <style>
-body{background-color: #8B95AF ;}
-</style>  
+body{background-color: #B2D8DD;}
+</style>
 </head>
 <body>
-<h2>Consultas disponibles para departamento de secretaría</h2>
+
+<h2>Consultas disponibles para Enfermero (a)</h2>
 
 <form action="CitasControlador">
 		<input type = "text" name = "paciente"> 
@@ -20,18 +21,24 @@ body{background-color: #8B95AF ;}
 	<form action="InsertarCita.jsp">
 <input type = "submit"  value= "Crear una cita medica"> 
 	</form>
-<h3> Eliminar una solicitud de cita médica</h3>	
+<h3> Eliminar una cita médica</h3>	
 	<form action="BorrarCitaControlador.jsp">
 
 	Cedula del paciente: <input type = "text" name = "paciente"> <br> <input type = "submit" value= "Borrar cita">
 
 	</form>
-	<br>
 <h3> Eliminar un paciente</h3>	
 	<form action="BorrarPacienteControlador.jsp">
 
 	Cedula del paciente: <input type = "text" name = "cedula"> <br> <input type = "submit" value= "Borrar paciente">
 
 	</form>
+<h3> Consultar diagnosticos</h3>	
+	<form action="DiagnosticoControlador">
+		<input type = "text" name = "paciente"> 
+		<input type = "submit"  value= "Mostrar diagnostico por paciente"> 
+	</form>
+
+
 </body>
 </html>

@@ -18,6 +18,7 @@ body{background-color: #8B95AF ;}
 			<%
 				Cita c1 = (Cita)session.getAttribute("cita");
 				out.println(c1);
+				
 			%>
 
 

@@ -1,37 +1,30 @@
 <html>
 <body>
 <style>
-body{background-color: #C0BAB8;}
+body{background-color: #D4EEEE ;}
 </style> 
-<h2>Consultas disponibles</h2>
-	<form action="VistaPaciente.jsp">
-		<input type = "submit"  value= "Paciente"> 
-		<br>
+
+<center>
+<i> <h1> Hospital TEC</h1></b>
+<h3>Por favor, registrese como un usuario y a continuación ingrese a la plataforma</h3>
+
+	<h4> Registro de usuario</h4>
+	<form action="InsertarUsuario.jsp">
+	<input type = "submit"  value= "Insertar un usuario"> 
+
+	</form>
+	<h4> Ingreso a la plataforma</h4>
+	<form action="VistaPrincipal.jsp">
+	<input type = "submit"  value= "Ingresar"> 
+
 	</form>
 	
-	<form action="VistaSecretaria.jsp">
-	<input type = "submit"  value= "Secretaría"> 
+	<h5> ¡IMPORTANTE!</h5>
+<font color="red">Recuerde protegerse y llevar al pie de la letra las medidas que nos 
+da el Ministerio de Salud. Lávese bien las manos y utilice alcohol en gel, 
+caretas y cubre bocas. Evite el contacto con personas fuera de su burbuja social.</font>
 	
-	</form>
-	
-	
-	<form action="InsertarPaciente.jsp">
-	<input type = "submit"  value= "Insertar un nuevo paciente"> 
-	
-	</form>
-	
-	<br>
-		<form action="PacienteController">
-		<input type = "text" name = "cedula"> 
-		<input type = "submit"  value= "buscar datos de un paciente"> 
-	</form>
-	<br>
-	<form action="Tratamiento">
-		<input type = "text" name = "id"> 
-		<input type = "submit"  value= "buscar por id de tratamiento"> 
-	</form>
-	
-	
+</center>	
 	
 </body>
 </html>

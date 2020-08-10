@@ -28,6 +28,15 @@ Observaciones: <input type = "text" name ="observacion"><br>
 
 <input type = "submit" value= "insertar">
 
+	<br>
+<h3> Eliminar una cita solicitud de cita médica</h3>	
+	<form action="BorrarCitaControlador.jsp">
+
+	Cedula del paciente: <input type = "text" name = "paciente"> <br> <input type = "submit" value= "Borrar cita">
+
+	</form>
+	
+
 </form>
 
 

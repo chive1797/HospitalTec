@@ -6,10 +6,7 @@
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
 <style>
-body{background-color: #C0BAB8;}
-</style> 
-<style>
-body{background-color: #C0BAB8;}
+body{background-color: #B2D8DD;}
 </style> 
 </head>
 <body>
@@ -17,7 +14,7 @@ body{background-color: #C0BAB8;}
 <h2>Consultas disponibles para pacientes</h2>
 	<form action="PacienteController">
 		<input type = "text" name = "cedula"> 
-		<input type = "submit"  value= "buscar datos de un paciente"> 
+		<input type = "submit"  value= "Buscar datos de un paciente mediante su cedula"> 
 	</form>
 	<br>
 <form action="CitasControlador">
@@ -25,9 +22,15 @@ body{background-color: #C0BAB8;}
 		<input type = "submit"  value= "Buscar información de citas mediante la cedula"> 
 	</form>
 	<br>
-	<form action="InsertarCita.jsp">
-<input type = "submit"  value= "Solicitar una cita médica"> 
+	<form action="InsertarPaciente.jsp">
+		<input type = "submit"  value= "Registrarse como paciente"> 
+	
 	</form>
+	<br>
+	<form action="InsertarCita.jsp">
+<input type = "submit"  value= "Solicitar o eliminar una cita médica"> 
+	</form>
+
 
 </body>
 </html>

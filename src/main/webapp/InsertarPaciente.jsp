@@ -6,7 +6,7 @@
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
 <style>
-body{background-color: #8B95AF ;}
+body{background-color: #8B95AF;}
 </style> 
 </head>
 <body>
@@ -30,7 +30,6 @@ Residencia: <input type = "text" name ="residencia"><br>
 <input type = "submit" value= "insertar">
 
 </form>
-
 
 
 </center>
