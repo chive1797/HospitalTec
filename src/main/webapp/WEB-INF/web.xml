@@ -1,0 +1,37 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>PacienteController</servlet-name>
+  	<display-name>PacienteController</display-name>
+  	<description></description>
+  	<servlet-class>controlador.web.PacienteController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>CitasControlador</servlet-name>
+  	<display-name>CitasControlador</display-name>
+  	<description></description>
+  	<servlet-class>controlador.web.CitasControlador</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>TratamientoControlador</servlet-name>
+  	<display-name>TratamientoControlador</display-name>
+  	<description></description>
+  	<servlet-class>controlador.web.TratamientoControlador</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>PacienteController</servlet-name>
+  	<url-pattern>/PacienteController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>CitasControlador</servlet-name>
+  	<url-pattern>/CitasControlador</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>TratamientoControlador</servlet-name>
+  	<url-pattern>/Tratamiento</url-pattern>
+  </servlet-mapping>
+</web-app>
